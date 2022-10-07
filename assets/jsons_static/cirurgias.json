@@ -7,14 +7,14 @@
       "nomeProfissional":"Dr. Marcio Luiz",
       "especialidade":"Cirurgia Geral",
       "convenio": "Particular",
-      "unidade":"Hospital Moinhos de Vento",
+      "unidade":"Hospital Hammer Consult",
       "dataRealizacao":"2021-12-20T07:10:00",
       "dataAgendamento":"2021-12-20T07:10:00",
       "detalhes":{
         "id":1,
-        "telefone":"(51) 98961-9087",
-        "email":"atendimento@hmv.com",
-        "endereco":"Av. Getúlio Vargas, 4831 - Centro, Canoas - RS, 92010-011",
+        "telefone": "(51) 3516-0636",
+        "email": "contato@hammerconsult.com.br",
+        "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }
@@ -26,14 +26,14 @@
       "nomeProfissional":"Dr. Forman Pereira",
       "especialidade":"Neurocirurgião",
       "convenio": "Particular",
-      "unidade":"Hospital Moinhos de Vento",
+      "unidade":"Hospital Ernesto Dornelles",
       "dataRealizacao":"2022-01-16T08:30:00",
       "dataAgendamento":"2022-01-16T08:30:00",
       "detalhes":{
         "id":2,
-        "telefone":"(51) 98961-9087",
-        "email":"atendimento@hmv.com",
-        "endereco":"Av. Getúlio Vargas, 4831 - Centro, Canoas - RS, 92010-011",
+        "telefone":"(51) 3217-2002",
+        "email":"atendimento@ernestoDornelles.com",
+        "endereco":"Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }

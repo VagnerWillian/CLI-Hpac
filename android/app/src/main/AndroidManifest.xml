@@ -1,15 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.HospitalMoinhosDeVento.hmv">
+    package="com.PacienteHammerConsult.hmc">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
-        android:label="Moinhos de Vento"
+        android:usesCleartextTraffic="true"
+        android:label="Paciente HammerConsult"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"
-        android:installLocation="preferExternal">
+        android:installLocation="preferExternal"
+        >
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyDq9DefdHZv7ObHtADDfZUHsGSxHj41OxE"/>
+            android:value="AIzaSyAQxQzTNpUpAp2K1X4xT5r9KlBSV38XqIU"/>
         <activity
             android:exported="true"
             android:name=".MainActivity"
