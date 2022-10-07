@@ -1,4 +1,4 @@
-package com.PacienteHammerConsult.hmc
+package com.ErnestoDornelles.meuhed
 
 import io.flutter.embedding.android.FlutterActivity
 
