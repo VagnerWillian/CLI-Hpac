@@ -12,6 +12,18 @@ void main(List<String> arguments) async{
   parser.addCommand('help', command);
   parser.addCommand('info', command);
   parser.addCommand('clear', command);
+  parser.addCommand('add', command);  parser.addCommand('help', command);
+  parser.addCommand('info', command);
+  parser.addCommand('clear', command);
+  parser.addCommand('add', command);  parser.addCommand('help', command);
+  parser.addCommand('info', command);
+  parser.addCommand('clear', command);
+  parser.addCommand('add', command);  parser.addCommand('help', command);
+  parser.addCommand('info', command);
+  parser.addCommand('clear', command);
+  parser.addCommand('add', command);  parser.addCommand('help', command);
+  parser.addCommand('info', command);
+  parser.addCommand('clear', command);
   parser.addCommand('add', command);
   parser.addOption('set', abbr: 's');
   var args  = parser.parse(arguments);
