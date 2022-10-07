@@ -1,3 +1,5 @@
+import 'dart:io';
+
 import 'package:args/args.dart';
 import 'package:hpac/set_project.dart' as setProject;
 import 'package:hpac/config_manager.dart' as config_manager;
@@ -15,7 +17,7 @@ void main(List<String> arguments) async{
   print("••••••••••••••••••••••••HPAC CLI••••••••••••••••••••••••••••••••");
   print("••••••••••••DESENVOLVIDO POR HAMMER CONSULT•••••••••••••••••••••");
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
-  await Future.delayed(Duration(seconds: 5));
+  final process = await Process.start('git.exe', ['add', '*'], runInShell: true);
   if(args.command?.name=='help'){
     print("-s(or --set) \"<client-name>\"");
     print("info • for actually selected client");
