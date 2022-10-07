@@ -33,7 +33,6 @@ Future<void> getClient(String? client)async{
   }
 }
 
-
 Future<void> createConfig(String selectedClient, String newClient)async{
   bool validateFolders = await validates.validateAfterRenameFolder(newClient);
   if(validateFolders){
