@@ -1,0 +1,19 @@
+{
+  "id": "1",
+  "sequencia": 1,
+  "tipo": "imagem",
+  "dataRalizacao": "2021-12-20T06:00:00",
+  "dataAgendamento": "2021-12-20T06:00:00",
+  "clinica": "Hospital Moinhos de Vento",
+  "convenio": "Particular",
+  "nome": "ULTRASSONOGRAFIA",
+  "detalhes": {
+    "id": "1",
+    "id_exame": "1",
+    "telefone": "(51) 98961-9087",
+    "email": "atendimento@hmv.com",
+    "endereco": "Av. Getúlio Vargas, 4831 - Centro, Canoas - RS, 92010-011",
+    "descricao": "ULTRASSONOGRAFIA",
+    "orientacoes": "Chegar 30min antes do horário da consulta."
+  }
+}

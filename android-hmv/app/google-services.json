@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152769567677",
+    "project_id": "hpachmv",
+    "storage_bucket": "hpachmv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152769567677:android:3db1100c0114508e9a10d4",
+        "android_client_info": {
+          "package_name": "com.HospitalMoinhosDeVento.hmv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "152769567677-t83df0q8m6fjs2kb1re9v28qcirlbgbp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtU43jY_VZdP8opsaqKFyx-rCiRHUcvAA"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}
