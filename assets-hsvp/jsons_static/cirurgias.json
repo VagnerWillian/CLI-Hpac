@@ -1,0 +1,42 @@
+{
+  "result": [
+    {
+      "id":1,
+      "sequencia": 1,
+      "nome": "Apendicectomia",
+      "nomeProfissional":"Dr. Marcio Luiz",
+      "especialidade":"Cirurgia Geral",
+      "convenio": "Particular",
+      "unidade":"Hospital Ernesto Dornelles",
+      "dataRealizacao":"2021-12-20T07:10:00",
+      "dataAgendamento":"2021-12-20T07:10:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":2,
+      "sequencia": 2,
+      "nome": "Crâniotomia",
+      "nomeProfissional":"Dr. Forman Pereira",
+      "convenio": "Particular",
+      "especialidade":"Neurocirurgião",
+      "unidade":"Hospital Ernesto Dornelles",
+      "dataRealizacao":"2022-01-16T08:30:00",
+      "dataAgendamento":"2022-01-16T08:30:00",
+      "detalhes":{
+        "id":2,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

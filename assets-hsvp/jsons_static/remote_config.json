@@ -1,0 +1,199 @@
+{
+  "END_POINTS":{
+    "base_url": {
+      "dev": "https://hpac-dev.hmed.app/",
+      "v1": "https://hpacserverhsvp.hmed.app"
+    },
+    "login_servidor": {
+      "post_login": "",
+      "post_cadastro": "",
+      "post_atualizar_email": "",
+      "post_confirmar_email": "",
+      "post_atualizar_senha": "",
+      "post_recuperar_senha": "",
+      "delete_credencial": ""
+    },
+    "usuario_points": {
+      "get_especialidades_list_tela_de_login": "",
+      "get_fila_por_especialidade_tela_de_login": "",
+      "get_post_put_usuario": "/usuario/5",
+      "post_valida_chave": "/usuario/5/valida"
+    },
+    "convenios_points": {
+      "get_lista_convenios": "/convenio/5",
+      "get_post_put_convenios": "/convenio",
+      "get_lista_planos": "/planos/4"
+    },
+    "lgpd_points": {
+      "get_verifica_lgpd": "/DocumentoLGPD/VerificaAceito/5",
+      "post_grava_lgpd": "/DocumentoLGPD/GravarAceito/5"
+    },
+    "exames_points": {
+      "get_lista_exames": "/agenda/5/exame",
+      "get_historico_exames": "/exames/5/historico",
+      "get_detalhes_exame_lab": "/exames/5",
+      "get_detalhes_exame_img": "/exames/5",
+      "get_laudo_imagem_exame": "/exames/laudo/5",
+      "get_laudo_lab_exame": "/exames/laudo/5"
+    },
+    "coletas_points": {
+      "get_coletas": "/coleta/5/proximos",
+      "get_historico_coletas": "/coleta/5/historico"
+    },
+    "como_chegar_points": {
+      "get_enderecos": "/enderecos/5"
+    },
+    "fale_conosco_points": {
+      "get_assuntos": "",
+      "post_fale_conosco": ""
+    },
+    "agendamento_consulta_points": {
+      "get_especialidades": "/Especialidade/Medica/5",
+      "get_subespecialidades": "",
+      "get_unidades": "",
+      "get_frequencias": "",
+      "get_medicos": "/Medicos/Medica/5",
+      "get_unidades": "/Unidades/5",
+      "get_datas_medicos": "/agenda/livres/5",
+      "verifica_agenda_ja_existe": "",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/5"
+    },
+    "agendamento_exame_imagem_points": {
+      "get_exames": "/Especialidade/Medica/4",
+      "get_tipo_exames": "",
+      "get_unidades": "",
+      "get_datas_medicos": "/agenda/livres/4",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+    },
+    "agendamento_exame_lab_points": {
+      "get_exames": "/Especialidade/Medica/4",
+      "get_tipo_exames": "",
+      "get_unidades": "",
+      "get_datas_medicos": "/agenda/livres/4",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+    },
+    "guia_telefones_points": {
+      "get_setores_telefones": ""
+    }
+  },
+  "APP_CONTROL_VERSION": {
+    "ativar_verificacao": false,
+    "ultima_versao_publicada": "",
+    "build_numero": 0,
+    "atualizacao_obrigatoria": false,
+    "link": "market://details?id=com.HospitalSaoVicente.hsvp"
+  },
+  "OPTIONS": {
+    "identificador_pessoal": "CPF",
+    "login_firebase": true,
+    "botao_flutuante": {
+      "acao": "pronto_socorro",
+      "whatsapp_numero": "",
+      "whatsapp_mensagem": ""
+    },
+    "agenda": {
+      "aviso_nova_consulta": "Leia atentamente os passos a seguir.",
+      "aviso_novo_exame_imagem": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
+      "aviso_novo_exame_lab": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
+      "aviso_agenda_vazia": "Nenhuma data disponível",
+      "aviso_agenda_consulta_vazia": "Nenhuma data disponível",
+      "aviso_agenda_exame_vazio": "Nenhuma data disponível",
+      "resultado_laboratorio_html": true
+    },
+    "agenda_nova_consulta": {
+      "aviso_agenda_ja_existe" : false,
+      "exibir_especialidades" : false,
+      "exibir_subespecialidades" : false,
+      "exibir_unidades": false,
+      "exibir_frequencia": false,
+      "exibir_modalidade": true,
+      "exibir_filtro": true,
+      "exibir_anexo": false
+    },
+    "agenda_novo_exame_imagem": {
+      "exibir_exames" : false,
+      "exibir_tipo_exames" : false,
+      "exibir_unidades": false,
+      "exibir_medico": false,
+      "exibir_anexo": false
+    },
+    "agenda_novo_exame_lab": {
+      "exibir_exames" : true,
+      "exibir_tipo_exames" : true,
+      "exibir_unidades": true,
+      "exibir_anexo": true
+    },
+    "recursos": {
+      "fila_espera_ativar": false,
+      "como_chegar_ativar": true,
+      "guia_telefones_ativar": false,
+      "agendar_consulta_ativar": true,
+      "agendar_exame_imagem_ativar": false,
+      "agendar_exame_lab_ativar": true,
+      "dependentes_ativar": false,
+      "convenios_ativar": true,
+      "fale_conosco_ativar": false,
+      "fale_conosco_feedback": ""
+    },
+    "orientacoes_chave": [
+      {
+        "titulo": "Onde consigo esta chave?",
+        "descricao": "A chave deve ser retirada em qualquer recepção do hospital, no seu próximo atendimento presencial."
+      },
+      {
+        "titulo": "É obrigatório?",
+        "descricao": "Não, porém só após a informação da chave será possível consultar a sua agenda e os resultados dos seus exames."
+      }
+    ]
+  },
+  "TABS": [
+    {
+      "tipo": "dinamico",
+      "titulo": "Consultas",
+      "ep_url_proximos": "/agenda/5/consulta",
+      "ep_url_historico": "/agenda/5/consulta/historico",
+      "ep_url_cancelamento": "",
+      "label_proximos": "Próximas Consultas",
+      "label_historico": "Histórico de Consultas",
+      "label_lista_vazia": "Sem consultas agendadas",
+      "label_lista_historico_vazio": "Sem histórico de consultas"
+    },
+    {
+      "tipo" : "exames",
+      "titulo": "Exames"
+    },
+    {
+      "tipo": "dinamico",
+      "titulo": "Cirurgias",
+      "ep_url_proximos": "/agenda/5/cirurgia",
+      "ep_url_historico": "/agenda/5/cirurgia/historico",
+      "ep_url_cancelamento": "",
+      "label_proximos": "Próximas Cirurgias",
+      "label_historico": "Histórico de Cirurgias",
+      "label_lista_vazia": "Sem cirurgias agendadas",
+      "label_lista_historico_vazio": "Sem histórico de cirurgias"
+    }
+  ],
+  "APRESENTACAO" : [
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachsvp.appspot.com/o/pronto_atendimento.png?alt=media&token=a3f6d5fe-fa30-459a-866b-882d46abe91a",
+      "title": "Pronto Socorro",
+      "subtitle": "Aqui no aplicativo você poderá acompanhar o tempo estimado em que será atendido no pronto atendimento"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachsvp.appspot.com/o/consultas.png?alt=media&token=ced8d089-3355-4c35-a12e-f1d838748585",
+      "title": "Consultas, Cirurgias e Quimioterapia",
+      "subtitle": "Tenha na palma de sua mão todos os compromissos com a sua saúde, com data e hora pra você não perder a sua consulta."
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachsvp.appspot.com/o/exames.png?alt=media&token=0b055940-12d5-4c8d-8fa0-99f1e893c69e",
+      "title": "Exames",
+      "subtitle": "Acompanhae a liberação, laudos e resultados laboratoriais do seus exames."
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachsvp.appspot.com/o/lembretes.png?alt=media&token=380f7f6f-237d-493b-9bbd-b435ce57c024",
+      "title": "Lembretes",
+      "subtitle": "Receba no seu smartphone notificações com lembretes de consultas, exames e coletas"
+    }
+  ]
+}

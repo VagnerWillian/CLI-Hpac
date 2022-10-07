@@ -1,0 +1,16 @@
+{
+      "id":1,
+      "nomeProfissional":"Dr. Antonio Luis",
+      "especialidade":"Neurologista",
+      "unidade": "Hospital De Caridade São Vicente de Paulo",
+      "sequencia": 1000,
+      "dataAgendamento":"2021-11-16T15:00:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+}

@@ -2,10 +2,12 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>CADisableMinimumFrameDurationOnPhone</key>
+		<true/>
 		<key>CFBundleDevelopmentRegion</key>
 		<string>$(DEVELOPMENT_LANGUAGE)</string>
 		<key>CFBundleDisplayName</key>
-		<string>Meu HSVP</string>
+		<string>Hpac</string>
 		<key>CFBundleExecutable</key>
 		<string>$(EXECUTABLE_NAME)</string>
 		<key>CFBundleIdentifier</key>
@@ -29,17 +31,33 @@
 			<string>http</string>
 			<string>https</string>
 			<string>tel</string>
+			<string>comgooglemaps</string>
+			<string>baidumap</string>
+			<string>iosamap</string>
+			<string>waze</string>
+			<string>yandexmaps</string>
+			<string>yandexnavi</string>
+			<string>citymapper</string>
+			<string>mapswithme</string>
+			<string>osmandmaps</string>
+			<string>dgis</string>
+			<string>qqmap</string>
+			<string>here-location</string>
 		</array>
 		<key>LSRequiresIPhoneOS</key>
 		<true/>
+		<key>NSBonjourServices</key>
+		<array>
+			<string>_dartobservatory._tcp</string>
+		</array>
 		<key>NSCameraUsageDescription</key>
 		<string>Precisamos de sua autorização para acessar a câmera deste dispositivo.</string>
+		<key>NSLocationWhenInUseUsageDescription</key>
+		<string>Precisamos de sua autorização para acessar a localização deste dispositivo.</string>
 		<key>NSMicrophoneUsageDescription</key>
 		<string>Precisamos de sua autorização para acessar o microfone deste dispositivo.</string>
 		<key>NSPhotoLibraryUsageDescription</key>
 		<string>Precisamos de sua autorização para acessar as imagens deste dispositivo.</string>
-		<key>NSLocationWhenInUseUsageDescription</key>
-		<string>Precisamos de sua autorização para acessar a localização deste dispositivo.</string>
 		<key>UIBackgroundModes</key>
 		<array>
 			<string>fetch</string>
@@ -66,7 +84,5 @@
 		<true/>
 		<key>UIViewControllerBasedStatusBarAppearance</key>
 		<false/>
-		<key>CADisableMinimumFrameDurationOnPhone</key>
-		<true/>
 	</dict>
 </plist>

@@ -1,0 +1,22 @@
+{
+  "result": [
+    {
+      "id":1,
+      "nome": "Biópsia hepática",
+      "nomeProfissional":"Dr. Marcio Luiz",
+      "especialidade":"Cirurgia Geral",
+      "convenio": "Particular",
+      "unidade": "Hospital De Caridade São Vicente de Paulo",
+      "dataRealizacao":"2020-12-20T08:00:00",
+      "dataAgendamento":"2020-12-20T08:00:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}
