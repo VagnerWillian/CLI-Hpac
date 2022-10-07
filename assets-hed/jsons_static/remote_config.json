@@ -1,0 +1,209 @@
+{
+  "END_POINTS": {
+    "base_url": {
+      "dev": "https://hpac-dev.hmed.app/",
+      "v1": "https://hpacserverhed.hmed.app"
+    },
+    "login_servidor": {
+      "post_login": "",
+      "post_cadastro": "",
+      "post_atualizar_email": "",
+      "post_confirmar_email": "",
+      "post_atualizar_senha": "",
+      "post_recuperar_senha": "",
+      "delete_credencial": ""
+    },
+    "usuario_points": {
+      "get_especialidades_list_tela_de_login": "/especialidade/fila/4",
+      "get_fila_por_especialidade_tela_de_login": "/prontoatendimento/4",
+      "get_post_put_usuario": "/usuario/4",
+      "post_valida_chave": "/usuario/4/valida"
+    },
+    "convenios_points": {
+      "get_lista_convenios": "/convenio/4",
+      "get_post_put_convenios": "/convenio/",
+      "get_lista_planos": "/planos/4"
+    },
+    "lgpd_points": {
+      "get_verifica_lgpd": "/DocumentoLGPD/VerificaAceito/4",
+      "post_grava_lgpd": "/DocumentoLGPD/GravarAceito/4"
+    },
+    "exames_points": {
+      "get_lista_exames": "/agenda/4/exame",
+      "get_historico_exames": "/exames/4/historico",
+      "get_detalhes_exame_lab": "/exames/4",
+      "get_detalhes_exame_img": "/exames/4",
+      "get_laudo_imagem_exame": "/exames/laudo/4",
+      "get_laudo_lab_exame": "/exames/laudo/4"
+    },
+    "coletas_points": {
+      "get_coletas": "/coleta/4/proximos",
+      "get_historico_coletas": "/coleta/4/historico"
+    },
+    "como_chegar_points": {
+      "get_enderecos": "/ComoChegar/4"
+    },
+    "fale_conosco_points": {
+      "get_assuntos": "/FaleConosco/4",
+      "post_fale_conosco": "/FaleConosco/"
+    },
+    "agendamento_consulta_points": {
+      "get_especialidades": "/Especialidade/Medica/4",
+      "get_subespecialidades": "",
+      "get_unidades": "",
+      "get_frequencias": "",
+      "get_medicos": "/Medicos/Medica/4",
+      "get_unidades": "/Unidades/4",
+      "get_datas_medicos": "/agenda/livres/4",
+      "verifica_agenda_ja_existe": "",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+    },
+    "agendamento_exame_imagem_points": {
+      "get_exames": "/Especialidade/Medica/4",
+      "get_tipo_exames": "",
+      "get_unidades": "",
+      "get_datas_medicos": "/agenda/livres/4",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+    },
+    "agendamento_exame_lab_points": {
+      "get_exames": "/Especialidade/Medica/4",
+      "get_tipo_exames": "",
+      "get_unidades": "",
+      "get_datas_medicos": "/agenda/livres/4",
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+    },
+    "guia_telefones_points": {
+      "get_setores_telefones": ""
+    }
+  },
+  "APP_CONTROL_VERSION": {
+    "ativar_verificacao": false,
+    "ultima_versao_publicada": "",
+    "build_numero": 0,
+    "atualizacao_obrigatoria": false,
+    "link": "market://details?id=com.MarioPalmerio.mphu"
+  },
+  "TABS": [
+    {
+      "tipo": "dinamico",
+      "titulo": "Consultas",
+      "ep_url_proximos": "/agenda/4/consulta",
+      "ep_url_historico": "/agenda/4/consulta/historico",
+      "ep_url_cancelamento": "",
+      "label_proximos": "Próximas Consultas",
+      "label_historico": "Histórico de Consultas",
+      "label_lista_vazia": "Sem consultas agendadas",
+      "label_lista_historico_vazio": "Sem histórico de consultas"
+    },
+    {
+      "tipo": "exames",
+      "titulo": "Exames"
+    },
+    {
+      "tipo": "dinamico",
+      "titulo": "Cirurgias",
+      "ep_url_proximos": "/agenda/4/cirurgia",
+      "ep_url_historico": "/agenda/4/cirurgia/historico",
+      "ep_url_cancelamento": "",
+      "label_proximos": "Próximas Cirurgias",
+      "label_historico": "Histórico de Cirurgias",
+      "label_lista_vazia": "Sem cirurgias agendadas",
+      "label_lista_historico_vazio": "Sem histórico de cirurgias"
+    },
+    {
+      "tipo": "dinamico",
+      "titulo": "Quimioterapia",
+      "ep_url_proximos": "/agenda/4/quimioterapia",
+      "ep_url_historico": "/agenda/4/quimioterapia/historico",
+      "ep_url_cancelamento": "",
+      "label_proximos": "Próximas Quimioterapias",
+      "label_historico": "Histórico de Quimioterapias",
+      "label_lista_vazia": "Sem quimioterapias agendadas",
+      "label_lista_historico_vazio": "Sem quimioterapias agendadas"
+    }
+  ],
+  "APRESENTACAO": [
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fpronto_atendimento.png?alt=media&token=ed9c5e84-fe26-4e5f-883b-6d2edc6d9774",
+      "title": "Pronto Socorro",
+      "subtitle": "Aqui no aplicativo você poderá acompanhar o tempo estimado em que será atendido no pronto atendimento"
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fconsultas.png?alt=media&token=796a1559-ae3e-4f0c-8eaf-70b7301c71c2",
+      "title": "Consultas, Cirurgias e Quimioterapia",
+      "subtitle": "Tenha na palma de sua mão todos os compromissos com a sua saúde, com data e hora pra você não perder a sua consulta."
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fexames.png?alt=media&token=4d0c4d3c-e1a1-47ff-8197-0f261e30b5a8",
+      "title": "Exames",
+      "subtitle": "Acompanhae a liberação, laudos e resultados laboratoriais do seus exames."
+    },
+    {
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Flembretes.png?alt=media&token=686f8266-4136-4c66-bfc4-dfdc24e72734",
+      "title": "Lembretes",
+      "subtitle": "Receba no seu smartphone notificações com lembretes de consultas, exames e coletas"
+    }
+  ],
+  "OPTIONS": {
+    "identificador_pessoal": "CPF",
+    "login_firebase": true,
+    "botao_flutuante": {
+      "acao": "pronto_socorro",
+      "whatsapp_numero": "",
+      "whatsapp_mensagem": "Olá, tenho uma reclamação, elogio ou sugestão a fazer."
+    },
+    "agenda": {
+      "aviso_nova_consulta": "Salientamos que o aplicativo não contempla todas as agendas médicas disponíveis no HED, caso esteja buscando um profissional especifico e não o localizou aqui favor entrar em contato pelo telefone 32172002.",
+      "aviso_novo_exame_imagem": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
+      "aviso_novo_exame_lab": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
+      "aviso_agenda_consulta_vazia": "Nenhuma data disponível",
+      "aviso_agenda_exame_vazio": "Nenhuma data disponível",
+      "resultado_laboratorio_html": true
+    },
+    "agenda_nova_consulta": {
+      "aviso_agenda_ja_existe" : true,
+      "exibir_especialidades" : true,
+      "exibir_subespecialidades" : false,
+      "exibir_unidades": true,
+      "exibir_frequencia": false,
+      "exibir_modalidade": false,
+      "exibir_filtro": false,
+      "exibir_anexo": false
+    },
+    "agenda_novo_exame_imagem": {
+      "exibir_exames" : true,
+      "exibir_tipo_exames" : true,
+      "exibir_unidades": true,
+      "exibir_medico": false,
+      "exibir_anexo": true
+    },
+    "agenda_novo_exame_lab": {
+      "exibir_exames" : false,
+      "exibir_tipo_exames" : false,
+      "exibir_unidades": false,
+      "exibir_anexo": false
+    },
+    "recursos": {
+      "fila_espera_ativar": true,
+      "como_chegar_ativar": true,
+      "guia_telefones_ativar": true,
+      "agendar_consulta_ativar": true,
+      "agendar_exame_imagem_ativar": false,
+      "agendar_exame_lab_ativar": false,
+      "fale_conosco_ativar": true,
+      "dependentes_ativar": false,
+      "convenios_ativar": true,
+      "fale_conosco_feedback": "Sua mensagem foi enviada para a nossa equipe. Entraremos em contato o mais breve possível."
+    },
+    "orientacoes_chave": [
+      {
+        "titulo": "Onde consigo esta chave?",
+        "descricao": "A chave deve ser retirada em qualquer recepção do hospital, no seu próximo atendimento presencial."
+      },
+      {
+        "titulo": "É obrigatório?",
+        "descricao": "Não, porém só após a informação da chave será possível consultar a sua agenda e os resultados dos seus exames."
+      }
+    ]
+  }
+}
