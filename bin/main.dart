@@ -38,6 +38,7 @@ void main(List<String> arguments) async{
   }else if(args.options.contains("set")){
     setProject.run(args['set']);
   }else {
+
     print("???????? COMANDO DESCONHECIDO ?????????");
   }
 }
