@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:args/args.dart';
 import 'package:hpac/set_project.dart' as setProject;
 import 'package:hpac/config_manager.dart' as config_manager;
+import 'package:hpac/git_manager.dart' as git_manager;
 
 void main(List<String> arguments) async{
   var parser = ArgParser();
@@ -10,6 +11,7 @@ void main(List<String> arguments) async{
   parser.addCommand('help', command);
   parser.addCommand('info', command);
   parser.addCommand('clear', command);
+  parser.addCommand('add', command);
   parser.addOption('set', abbr: 's');
   var args  = parser.parse(arguments);
 
@@ -17,8 +19,10 @@ void main(List<String> arguments) async{
   print("••••••••••••••••••••••••HPAC CLI••••••••••••••••••••••••••••••••");
   print("••••••••••••DESENVOLVIDO POR HAMMER CONSULT•••••••••••••••••••••");
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
-  final process = await Process.start('git.exe', ['add', '*'], runInShell: true);
-  if(args.command?.name=='help'){
+  if(args.command?.name=='add'){
+    print("GIT ADD * ...");
+    await git_manager.addAll();
+  }else if(args.command?.name=='help'){
     print("-s(or --set) \"<client-name>\"");
     print("info • for actually selected client");
     print("help • help for commands");
