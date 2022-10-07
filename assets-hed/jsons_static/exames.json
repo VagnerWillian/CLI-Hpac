@@ -1,0 +1,43 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "sequencia": 1,
+      "tipo": "imagem",
+      "dataRalizacao": "2021-12-20T06:00:00",
+      "dataAgendamento": "2021-12-20T06:00:00",
+      "clinica": "Hospital Ernesto Dornelles",
+      "convenio": "Particular",
+      "valorParticular": "VALOR DA CONSULTA PARTICULAR $ 100,00",
+      "nome": "TSH ULTRA SENSIVEL, T4 LIVRE",
+      "detalhes": {
+        "id": "1",
+        "id_exame": "1",
+        "telefone": "(51) 3217-2002",
+        "email": "atendimento@ernestoDornelles.com",
+        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "descricao": "TSH ULTRA SENSIVEL, T4 LIVRE",
+        "orientacoes": "Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":"2",
+      "sequencia": 2,
+      "tipo":"laboratorial",
+      "dataRealizacao":"2021-12-20T07:00:00",
+      "dataAgendamento":"2021-12-20T07:00:00",
+      "clinica":"Hospital Ernesto Dornelles",
+      "convenio": "Particular",
+      "nome":"TESTE RÁPIDO MOLECULAR COVID-19",
+      "detalhes": {
+        "id":"2",
+        "id_exame":"2",
+        "telefone": "(51) 3217-2002",
+        "email":"atendimento@ernestoDornelles.com",
+        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "descricao":"TESTE RÁPIDO MOLECULAR COVID-19",
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

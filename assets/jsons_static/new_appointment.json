@@ -2,15 +2,15 @@
       "id":1,
       "nomeProfissional":"Dr. Antonio Luis",
       "especialidade":"Neurologista",
-      "unidade": "Hospital Ernesto Dornelles",
+      "unidade": "Hospital Hammer Consult",
       "sequencia": 1000,
       "dataRealizacao":"2021-11-16T15:00:00",
       "dataAgendamento":"2021-11-16T15:00:00",
       "detalhes":{
         "id":1,
-        "telefone": "(51) 3217-2002",
-        "email":"atendimento@hed.com",
-        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "telefone": "(51) 3516-0636",
+        "email": "contato@hammerconsult.com.br",
+        "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }
