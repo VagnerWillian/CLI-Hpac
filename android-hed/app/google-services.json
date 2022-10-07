@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "292375693028",
+    "project_id": "hpached",
+    "storage_bucket": "hpached.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292375693028:android:2b603fad10e5b42833cef1",
+        "android_client_info": {
+          "package_name": "com.ErnestoDornelles.meuhed"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292375693028-l5lr8cm14tt5ksdvshvhcuichbo09vdp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQxQzTNpUpAp2K1X4xT5r9KlBSV38XqIU"
+        }
+      ]
+    }
+  ],
+  "configuration_version": "1"
+}

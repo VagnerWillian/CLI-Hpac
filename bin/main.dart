@@ -1,6 +1,7 @@
 import 'dart:io';
 
 import 'package:args/args.dart';
+import 'package:hpac/constants.dart';
 import 'package:hpac/set_project.dart' as setProject;
 import 'package:hpac/config_manager.dart' as config_manager;
 import 'package:hpac/git_manager.dart' as git_manager;
@@ -20,6 +21,7 @@ void main(List<String> arguments) async{
   print("••••••••••••DESENVOLVIDO POR HAMMER CONSULT•••••••••••••••••••••");
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
   if(args.command?.name=='add'){
+    await setProject.run(clientDefault);
     print("GIT ADD * ...");
     await git_manager.addAll();
   }else if(args.command?.name=='help'){
@@ -36,5 +38,6 @@ void main(List<String> arguments) async{
     setProject.run(args['set']);
   }else {
     print("???????? COMANDO DESCONHECIDO ?????????");
+
   }
 }
