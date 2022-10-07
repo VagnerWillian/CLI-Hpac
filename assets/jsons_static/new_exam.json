@@ -4,15 +4,15 @@
   "tipo": "imagem",
   "dataRalizacao": "2021-12-20T06:00:00",
   "dataAgendamento": "2021-12-20T06:00:00",
-  "clinica": "Hospital Hammer Consult",
+  "clinica": "Hospital Ernesto Dornelles",
   "convenio": "Particular",
   "nome": "ULTRASSONOGRAFIA",
   "detalhes": {
     "id": "1",
     "id_exame": "1",
-    "telefone": "(51) 3516-0636",
-    "email": "contato@hammerconsult.com.br",
-    "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
+    "telefone": "(51) 3217-2002",
+    "email": "atendimento@ernestoDornelles.com",
+    "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
     "descricao": "ULTRASSONOGRAFIA",
     "orientacoes": "Chegar 30min antes do horário da consulta."
   }

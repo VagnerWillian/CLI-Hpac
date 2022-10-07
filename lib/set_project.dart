@@ -21,9 +21,20 @@ Future<void> getClient(String? client)async{
     final jsonEncoded = json.decode(str);
     bool validateFolders = await validates.validateBeforeRenameFolder(clientProject??clientDefault);
     if(validateFolders){
-      bool success = await directory_manager.run(jsonEncoded['selected_client'], clientProject??clientDefault);
-      if(success){
-        await createConfig(jsonEncoded['selected_client'], clientProject??clientDefault);
+      stdout.write("Deseja definir ${clientProject} como projeto atual (y/n): ");
+      String confirm = stdin.readLineSync()??"n";
+      if(confirm == "y"){
+        if(confirm=="y"){
+          stderr.write("Você optou por SIM definir o projeto como padrão");
+          bool success = await directory_manager.run(jsonEncoded['selected_client'], clientProject??clientDefault);
+          if(success){
+            await createConfig(jsonEncoded['selected_client'], clientProject??clientDefault);
+          }
+        }
+      }else if (confirm=="n"){
+        stderr.write("Você optou por NÃO definir o projeto como padrão");
+      }else{
+        stderr.write("OPÇÃO INVÁLIDA!");
       }
     }else{
       print("CLIENTE INEXISTENTE OU JÁ SELECIONADO");
