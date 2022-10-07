@@ -5,15 +5,15 @@
       "nome": "Biópsia hepática",
       "nomeProfissional":"Dr. Marcio Luiz",
       "especialidade":"Cirurgia Geral",
-      "unidade":"Hospital Hammer Consult",
+      "unidade":"Hospital Moinhos de Vento",
       "convenio": "Particular",
-      "dataAgendamento":"2020-12-20T08:00:00",
       "dataRealizacao":"2020-12-20T08:00:00",
+      "dataAgendamento":"2020-12-20T08:00:00",
       "detalhes":{
         "id":1,
-        "telefone": "(51) 3516-0636",
-        "email": "contato@hammerconsult.com.br",
-        "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
+        "telefone":"(51) 98961-9087",
+        "email":"atendimento@hmv.com",
+        "endereco":"Av. Getúlio Vargas, 4831 - Centro, Canoas - RS, 92010-011",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }
