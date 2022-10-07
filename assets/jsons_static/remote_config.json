@@ -2,11 +2,11 @@
   "END_POINTS": {
     "base_url": {
       "dev": "https://hpac-dev.hmed.app/",
-      "v1": "https://hpacserver.hmed.app"
+      "v1": "https://hpacserverhmv.hmed.app"
     },
     "login_servidor": {
-      "post_login": "",
-      "post_cadastro": "",
+      "post_login": "/token/2",
+      "post_cadastro": "/usuario/2",
       "post_atualizar_email": "",
       "post_confirmar_email": "",
       "post_atualizar_senha": "",
@@ -14,48 +14,49 @@
       "delete_credencial": ""
     },
     "usuario_points": {
-      "get_especialidades_list_tela_de_login": "/especialidade/fila/4",
-      "get_fila_por_especialidade_tela_de_login": "/prontoatendimento/4",
-      "get_post_put_usuario": "/usuario/4",
-      "post_valida_chave": "/usuario/4/valida"
+      "get_especialidades_list_tela_de_login": "",
+      "get_fila_por_especialidade_tela_de_login": "",
+      "get_post_put_usuario": "/usuario/2",
+      "post_valida_chave": "/usuario/2/valida"
     },
     "convenios_points": {
-      "get_lista_convenios": "/convenio/4",
+      "get_lista_convenios": "/convenio/2",
       "get_post_put_convenios": "/convenio/",
       "get_lista_planos": "/planos/4"
     },
     "lgpd_points": {
-      "get_verifica_lgpd": "/DocumentoLGPD/VerificaAceito/4",
-      "post_grava_lgpd": "/DocumentoLGPD/GravarAceito/4"
+      "get_verifica_lgpd": "/DocumentoLGPD/VerificaAceito/2",
+      "post_grava_lgpd": "/DocumentoLGPD/GravarAceito/2"
     },
     "exames_points": {
-      "get_lista_exames": "/agenda/4/exame",
-      "get_historico_exames": "/exames/4/historico",
-      "get_detalhes_exame_lab": "/exames/4",
-      "get_detalhes_exame_img": "/exames/4",
-      "get_laudo_imagem_exame": "/exames/laudo/4",
-      "get_laudo_lab_exame": "/exames/laudo/4"
+      "get_lista_exames": "/agenda/2/exame",
+      "get_historico_exames": "/exames/2/historico",
+      "get_detalhes_exame_lab": "/exames/2",
+      "get_detalhes_exame_img": "/exames/2",
+      "get_laudo_imagem_exame": "/exames/laudo/2",
+      "get_laudo_lab_exame": "/exames/laudo/2"
     },
     "coletas_points": {
-      "get_coletas": "/coleta/4/proximos",
-      "get_historico_coletas": "/coleta/4/historico"
+      "get_coletas": "/coleta/2/proximos",
+      "get_historico_coletas": "/coleta/2/historico"
     },
     "como_chegar_points": {
-      "get_enderecos": "/ComoChegar/4"
+      "get_enderecos": "/ComoChegar/2"
     },
     "fale_conosco_points": {
-      "get_assuntos": "/FaleConosco/4",
+      "get_assuntos": "/FaleConosco/2",
       "post_fale_conosco": "/FaleConosco/"
     },
     "agendamento_consulta_points": {
-      "get_especialidades": "/Especialidade/Medica/4",
+      "get_especialidades": "/Especialidade/Medica/2",
       "get_subespecialidades": "",
       "get_unidades": "",
       "get_frequencias": "",
-      "get_medicos": "/Medicos/Medica/4",
-      "get_datas_medicos": "/agenda/livres/4",
+      "get_medicos": "/Medicos/Medica/2",
+      "get_unidades": "/Unidades/2",
+      "get_datas_medicos": "/agenda/livres/2",
       "verifica_agenda_ja_existe": "",
-      "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
+      "post_nova_agenda": "/Agenda/CadastrarAgenda/2"
     },
     "agendamento_exame_imagem_points": {
       "get_exames": "/Especialidade/Medica/4",
@@ -77,18 +78,18 @@
   },
   "APP_CONTROL_VERSION": {
     "ativar_verificacao": false,
-    "ultima_versao_publicada": "1",
-    "build_numero": 1,
+    "ultima_versao_publicada": "",
+    "build_numero": 0,
     "atualizacao_obrigatoria": false,
-    "link": "market://details?id=com.PacienteHammerConsult.hmc"
+    "link": "market://details?id=com.HospitalMoinhosDeVento.hmv"
   },
   "TABS": [
     {
       "tipo": "dinamico",
       "titulo": "Consultas",
-      "ep_url_proximos": "/agenda/4/consulta",
-      "ep_url_historico": "/agenda/4/consulta/historico",
-      "ep_url_cancelamento": "/agenda/cancelar",
+      "ep_url_proximos": "/agenda/2/consulta",
+      "ep_url_historico": "/agenda/2/consulta/historico",
+      "ep_url_cancelamento": "",
       "label_proximos": "Próximas Consultas",
       "label_historico": "Histórico de Consultas",
       "label_lista_vazia": "Sem consultas agendadas",
@@ -101,44 +102,40 @@
     {
       "tipo": "dinamico",
       "titulo": "Cirurgias",
-      "ep_url_proximos": "/agenda/4/cirurgia",
-      "ep_url_historico": "/agenda/4/cirurgia/historico",
-      "ep_url_cancelamento": "/agenda/cancelar",
+      "ep_url_proximos": "/agenda/2/cirurgia",
+      "ep_url_historico": "/agenda/2/cirurgia/historico",
+      "ep_url_cancelamento": "",
       "label_proximos": "Próximas Cirurgias",
       "label_historico": "Histórico de Cirurgias",
       "label_lista_vazia": "Sem cirurgias agendadas",
       "label_lista_historico_vazio": "Sem histórico de cirurgias"
-    },
-    {
-      "tipo": "coletas",
-      "titulo": "Coletas"
     }
   ],
   "APRESENTACAO": [
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FPronto%20Socorro.png?alt=media&token=f15e8422-f888-48ad-bc5b-f4e898b2cbed",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachmv.appspot.com/o/app%2Fpronto_atendimento.png?alt=media&token=885d7ba6-b042-4133-9341-0c2269328c7c",
       "title": "Pronto Socorro",
       "subtitle": "Aqui no aplicativo você poderá acompanhar o tempo estimado em que será atendido no pronto atendimento"
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FConsultas.png?alt=media&token=ae08dcdc-6ed0-4e74-9453-b25033c472f3",
-      "title": "Consultas, Cirurgias e Coletas",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachmv.appspot.com/o/app%2Fconsultas.png?alt=media&token=385fcfdf-f05a-47a6-8963-34ceb2dde94f",
+      "title": "Consultas e Agendamentos de Cirurgias",
       "subtitle": "Tenha na palma de sua mão todos os compromissos com a sua saúde, com data e hora pra você não perder a sua consulta."
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FExames.png?alt=media&token=445750be-f85f-4513-aa5d-f800cfc5cc81",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachmv.appspot.com/o/app%2Fexames.png?alt=media&token=2ceccc45-1044-4789-a99e-721630eb93e5",
       "title": "Exames",
       "subtitle": "Acompanhae a liberação, laudos e resultados laboratoriais do seus exames."
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FLembretes.png?alt=media&token=2ffd779c-6f98-4dc3-b56e-d596774f6738",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachmv.appspot.com/o/app%2Flembretes.png?alt=media&token=9c0387ea-ef94-4949-bbdd-a6a21215374c",
       "title": "Lembretes",
       "subtitle": "Receba no seu smartphone notificações com lembretes de consultas, exames e coletas"
     }
   ],
   "OPTIONS": {
-    "identificador_pessoal": "CPF",
-    "login_firebase": true,
+    "identificador_pessoal": "RG",
+    "login_firebase": false,
     "botao_flutuante": {
       "acao": "pronto_socorro",
       "whatsapp_numero": "",
@@ -176,15 +173,15 @@
       "exibir_anexo": true
     },
     "recursos": {
-      "fila_espera_ativar": true,
+      "fila_espera_ativar": false,
       "como_chegar_ativar": true,
-      "guia_telefones_ativar": true,
+      "guia_telefones_ativar": false,
       "agendar_consulta_ativar": true,
       "agendar_exame_imagem_ativar": true,
       "agendar_exame_lab_ativar": true,
       "dependentes_ativar": false,
       "convenios_ativar": true,
-      "fale_conosco_ativar": true,
+      "fale_conosco_ativar": false,
       "fale_conosco_feedback": "Sua mensagem foi enviada para a nossa equipe. Entraremos em contato o mais breve possível."
     },
     "orientacoes_chave": [

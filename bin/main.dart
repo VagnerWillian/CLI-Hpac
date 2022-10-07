@@ -11,6 +11,22 @@ void main(List<String> arguments) async{
   var command = ArgParser();
   parser.addCommand('help', command);
   parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
+  parser.addCommand('info', command);
   parser.addCommand('clear', command);
   parser.addCommand('add', command);
   parser.addOption('set', abbr: 's');
@@ -38,8 +54,6 @@ void main(List<String> arguments) async{
   }else if(args.options.contains("set")){
     setProject.run(args['set']);
   }else {
-
-
     print("???????? COMANDO DESCONHECIDO ?????????");
   }
 
