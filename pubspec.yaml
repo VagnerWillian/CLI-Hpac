@@ -16,3 +16,4 @@ dev_dependencies:
   test: ^1.21.6
   args: ^2.3.1
   props: ^2.0.0
+  git: ^2.0.0
