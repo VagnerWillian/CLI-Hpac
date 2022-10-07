@@ -22,7 +22,6 @@ void main(List<String> arguments) async{
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
   if(args.command?.name=='add'){
     await setProject.run(clientDefault);
-    await Future.delayed(Duration(seconds: 5));
     print("GIT ADD * ...");
     await git_manager.addAll();
   }else if(args.command?.name=='help'){
