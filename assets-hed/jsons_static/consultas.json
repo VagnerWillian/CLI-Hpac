@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "id":1,
+      "sequencia": 1,
+      "nomeProfissional":"Dr. Antonio Luis",
+      "especialidade":"Clinico Geral",
+      "unidade":"Hospital Ernesto Dornelles",
+      "convenio": "Particular",
+      "dataRealizacao":"2021-11-16T15:00:00",
+      "dataAgendamento":"2021-11-16T15:00:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(51) 3217-2002",
+        "email":"atendimento@ernestoDornelles.com",
+        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":2,
+      "sequencia": 2,
+      "nomeProfissional":"Dra. Maisa Oliveira",
+      "especialidade":"Ortopedista",
+      "unidade":"Hospital Ernesto Dornelles",
+      "convenio": "Particular",
+      "dataRealizacao":"2021-11-16T17:00:00",
+      "dataAgendamento":"2021-11-16T17:00:00",
+      "valorParticular": "VALOR DA CONSULTA PARTICULAR $ 100,00",
+      "detalhes":{
+        "id":2,
+        "telefone": "(51) 3217-2002",
+        "email":"atendimento@ernestoDornelles.com",
+        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

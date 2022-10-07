@@ -6,15 +6,15 @@
       "nome": "Quimioterapia",
       "nomeProfissional":"Dr. Geraldo Barreira",
       "especialidade":"Quimioterapia",
-      "unidade":"Hospital Ernesto Dornelles",
+      "unidade":"Hospital Hammer Consult",
       "convenio": "Particular",
       "dataRealizacao":"2021-12-20T07:10:00",
       "dataAgendamento":"2021-12-20T07:10:00",
       "detalhes":{
         "id":1,
-        "telefone": "(51) 3217-2002",
-        "email":"atendimento@ernestoDornelles.com",
-        "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+        "telefone": "(51) 3516-0636",
+        "email": "contato@hammerconsult.com.br",
+        "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }
@@ -25,8 +25,8 @@
       "nome": "Quimioterapia",
       "nomeProfissional":"Dr. Geraldo Barreira",
       "especialidade":"Quimioterapia",
-      "convenio": "Particular",
       "unidade":"Hospital Ernesto Dornelles",
+      "convenio": "Particular",
       "dataRealizacao":"2022-01-16T08:30:00",
       "dataAgendamento":"2022-01-16T08:30:00",
       "detalhes":{
