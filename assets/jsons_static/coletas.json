@@ -1,11 +1,11 @@
 {
   "result": [
     {
-      "descricao":"Coleta de urina",
       "sequencia": 1,
+      "descricao":"Coleta de urina",
       "dataRealizacao":"2021-11-16T15:00:00",
       "dataAgendamento":"2021-11-16T15:00:00",
-      "endereco": "Av. Ipiranga, 1801 - Azenha, Porto Alegre - RS, 90160-092",
+      "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
       "id": 1,
       "orientacoes":"Chegar 30min antes do horário da consulta."
     }

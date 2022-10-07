@@ -1,19 +1,15 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.PacienteHammerConsult.hmc">
+    package="com.HospitalSaoVicente.hsvp">
 
     <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
 
     <application
-        android:usesCleartextTraffic="true"
-        android:label="Paciente HammerConsult"
+        android:label="Meu HSVP"
         android:icon="@mipmap/ic_launcher"
         android:requestLegacyExternalStorage="true"
-        android:installLocation="preferExternal"
-        >
+        android:installLocation="preferExternal">
         <meta-data android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAQxQzTNpUpAp2K1X4xT5r9KlBSV38XqIU"/>
+            android:value="AIzaSyDq9DefdHZv7ObHtADDfZUHsGSxHj41OxE"/>
         <activity
             android:exported="true"
             android:name=".MainActivity"

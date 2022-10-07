@@ -1,37 +1,37 @@
 {
   "project_info": {
-    "project_number": "719925815196",
-    "project_id": "hpachammer",
-    "storage_bucket": "hpachammer.appspot.com"
+    "project_number": "257965435712",
+    "project_id": "hpachsvp",
+    "storage_bucket": "hpachsvp.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:719925815196:android:9a1ddac34c747f81f24a59",
+        "mobilesdk_app_id": "1:257965435712:android:60299412c8a5efb4aea8a5",
         "android_client_info": {
-          "package_name": "com.PacienteHammerConsult.hmc"
+          "package_name": "com.HospitalSaoVicente.hsvp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "719925815196-erb5jnce1mlui6uuk3l4p1gtgphtog0a.apps.googleusercontent.com",
+          "client_id": "257965435712-pdb7i074iq9fvc29fh85ksffoahqjbne.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCh6JX3gFp3TuGuyyJcA9tNwyDAXQZvXiM"
+          "current_key": "AIzaSyDe9KInF3IdQ8XP0TKm1mr4NYBG4lmsrx0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "719925815196-erb5jnce1mlui6uuk3l4p1gtgphtog0a.apps.googleusercontent.com",
+              "client_id": "257965435712-pdb7i074iq9fvc29fh85ksffoahqjbne.apps.googleusercontent.com",
               "client_type": 3
             },
             {
-              "client_id": "719925815196-26d59susfn0ch4f4k3r4lm3v1hmpcgd1.apps.googleusercontent.com",
+              "client_id": "257965435712-e45pescr72g2fur9msau9oqk2i78kbtr.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
                 "bundle_id": "com.ErnestoDornelles.meuhed"

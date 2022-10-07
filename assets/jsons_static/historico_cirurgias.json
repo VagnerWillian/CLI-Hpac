@@ -5,15 +5,15 @@
       "nome": "Biópsia hepática",
       "nomeProfissional":"Dr. Marcio Luiz",
       "especialidade":"Cirurgia Geral",
-      "unidade":"Hospital Hammer Consult",
       "convenio": "Particular",
-      "dataAgendamento":"2020-12-20T08:00:00",
+      "unidade": "Hospital De Caridade São Vicente de Paulo",
       "dataRealizacao":"2020-12-20T08:00:00",
+      "dataAgendamento":"2020-12-20T08:00:00",
       "detalhes":{
         "id":1,
-        "telefone": "(51) 3516-0636",
-        "email": "contato@hammerconsult.com.br",
-        "endereco": "Rua Caracas, 46 - Bairro Jardim Lindóia - Porto Alegre/RS ",
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
         "descricao":null,
         "orientacoes":"Chegar 30min antes do horário da consulta."
       }
