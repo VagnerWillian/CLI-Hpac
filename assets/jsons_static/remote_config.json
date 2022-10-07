@@ -2,7 +2,7 @@
   "END_POINTS": {
     "base_url": {
       "dev": "https://hpac-dev.hmed.app/",
-      "v1": "https://hpacserverhed.hmed.app"
+      "v1": "https://hpacserver.hmed.app"
     },
     "login_servidor": {
       "post_login": "",
@@ -53,7 +53,6 @@
       "get_unidades": "",
       "get_frequencias": "",
       "get_medicos": "/Medicos/Medica/4",
-      "get_unidades": "/Unidades/4",
       "get_datas_medicos": "/agenda/livres/4",
       "verifica_agenda_ja_existe": "",
       "post_nova_agenda": "/Agenda/CadastrarAgenda/4"
@@ -78,10 +77,10 @@
   },
   "APP_CONTROL_VERSION": {
     "ativar_verificacao": false,
-    "ultima_versao_publicada": "",
-    "build_numero": 0,
+    "ultima_versao_publicada": "1",
+    "build_numero": 1,
     "atualizacao_obrigatoria": false,
-    "link": "market://details?id=com.MarioPalmerio.mphu"
+    "link": "market://details?id=com.PacienteHammerConsult.hmc"
   },
   "TABS": [
     {
@@ -89,7 +88,7 @@
       "titulo": "Consultas",
       "ep_url_proximos": "/agenda/4/consulta",
       "ep_url_historico": "/agenda/4/consulta/historico",
-      "ep_url_cancelamento": "",
+      "ep_url_cancelamento": "/agenda/cancelar",
       "label_proximos": "Próximas Consultas",
       "label_historico": "Histórico de Consultas",
       "label_lista_vazia": "Sem consultas agendadas",
@@ -104,42 +103,35 @@
       "titulo": "Cirurgias",
       "ep_url_proximos": "/agenda/4/cirurgia",
       "ep_url_historico": "/agenda/4/cirurgia/historico",
-      "ep_url_cancelamento": "",
+      "ep_url_cancelamento": "/agenda/cancelar",
       "label_proximos": "Próximas Cirurgias",
       "label_historico": "Histórico de Cirurgias",
       "label_lista_vazia": "Sem cirurgias agendadas",
       "label_lista_historico_vazio": "Sem histórico de cirurgias"
     },
     {
-      "tipo": "dinamico",
-      "titulo": "Quimioterapia",
-      "ep_url_proximos": "/agenda/4/quimioterapia",
-      "ep_url_historico": "/agenda/4/quimioterapia/historico",
-      "ep_url_cancelamento": "",
-      "label_proximos": "Próximas Quimioterapias",
-      "label_historico": "Histórico de Quimioterapias",
-      "label_lista_vazia": "Sem quimioterapias agendadas",
-      "label_lista_historico_vazio": "Sem quimioterapias agendadas"
+      "tipo": "coletas",
+      "titulo": "Coletas"
     }
   ],
   "APRESENTACAO": [
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fpronto_atendimento.png?alt=media&token=ed9c5e84-fe26-4e5f-883b-6d2edc6d9774",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FPronto%20Socorro.png?alt=media&token=f15e8422-f888-48ad-bc5b-f4e898b2cbed",
       "title": "Pronto Socorro",
       "subtitle": "Aqui no aplicativo você poderá acompanhar o tempo estimado em que será atendido no pronto atendimento"
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fconsultas.png?alt=media&token=796a1559-ae3e-4f0c-8eaf-70b7301c71c2",
-      "title": "Consultas, Cirurgias e Quimioterapia",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FConsultas.png?alt=media&token=ae08dcdc-6ed0-4e74-9453-b25033c472f3",
+      "title": "Consultas, Cirurgias e Coletas",
       "subtitle": "Tenha na palma de sua mão todos os compromissos com a sua saúde, com data e hora pra você não perder a sua consulta."
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Fexames.png?alt=media&token=4d0c4d3c-e1a1-47ff-8197-0f261e30b5a8",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FExames.png?alt=media&token=445750be-f85f-4513-aa5d-f800cfc5cc81",
       "title": "Exames",
       "subtitle": "Acompanhae a liberação, laudos e resultados laboratoriais do seus exames."
     },
     {
-      "image": "https://firebasestorage.googleapis.com/v0/b/hpached.appspot.com/o/app%2Flembretes.png?alt=media&token=686f8266-4136-4c66-bfc4-dfdc24e72734",
+      "image": "https://firebasestorage.googleapis.com/v0/b/hpachammer.appspot.com/o/App%2Fassets%2FLembretes.png?alt=media&token=2ffd779c-6f98-4dc3-b56e-d596774f6738",
       "title": "Lembretes",
       "subtitle": "Receba no seu smartphone notificações com lembretes de consultas, exames e coletas"
     }
@@ -153,21 +145,21 @@
       "whatsapp_mensagem": "Olá, tenho uma reclamação, elogio ou sugestão a fazer."
     },
     "agenda": {
-      "aviso_nova_consulta": "Salientamos que o aplicativo não contempla todas as agendas médicas disponíveis no HED, caso esteja buscando um profissional especifico e não o localizou aqui favor entrar em contato pelo telefone 32172002.",
+      "aviso_nova_consulta": "Leia atentamente os passos a seguir.",
       "aviso_novo_exame_imagem": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
       "aviso_novo_exame_lab": "É importante que você leia atentamente as instruções de cada exame antes de agenda-lo.",
-      "aviso_agenda_consulta_vazia": "Nenhuma data disponível",
-      "aviso_agenda_exame_vazio": "Nenhuma data disponível",
-      "resultado_laboratorio_html": true
+      "aviso_agenda_consulta_vazia": "Entre em contato com a nossa Central de Atendimento para verificar a disponibilidade de agenda para esta consulta.",
+      "aviso_agenda_exame_vazio": "Entre em contato com a nossa Central de Atendimento para verificar a disponibilidade de agenda para esta exame.",
+      "resultado_laboratorio_html": false
     },
     "agenda_nova_consulta": {
-      "aviso_agenda_ja_existe" : true,
+      "aviso_agenda_ja_existe" : false,
       "exibir_especialidades" : true,
-      "exibir_subespecialidades" : false,
+      "exibir_subespecialidades" : true,
       "exibir_unidades": true,
-      "exibir_frequencia": false,
-      "exibir_modalidade": false,
-      "exibir_filtro": false,
+      "exibir_frequencia": true,
+      "exibir_modalidade": true,
+      "exibir_filtro": true,
       "exibir_anexo": false
     },
     "agenda_novo_exame_imagem": {
@@ -178,21 +170,21 @@
       "exibir_anexo": true
     },
     "agenda_novo_exame_lab": {
-      "exibir_exames" : false,
-      "exibir_tipo_exames" : false,
-      "exibir_unidades": false,
-      "exibir_anexo": false
+      "exibir_exames" : true,
+      "exibir_tipo_exames" : true,
+      "exibir_unidades": true,
+      "exibir_anexo": true
     },
     "recursos": {
       "fila_espera_ativar": true,
       "como_chegar_ativar": true,
       "guia_telefones_ativar": true,
       "agendar_consulta_ativar": true,
-      "agendar_exame_imagem_ativar": false,
-      "agendar_exame_lab_ativar": false,
-      "fale_conosco_ativar": true,
+      "agendar_exame_imagem_ativar": true,
+      "agendar_exame_lab_ativar": true,
       "dependentes_ativar": false,
       "convenios_ativar": true,
+      "fale_conosco_ativar": true,
       "fale_conosco_feedback": "Sua mensagem foi enviada para a nossa equipe. Entraremos em contato o mais breve possível."
     },
     "orientacoes_chave": [
