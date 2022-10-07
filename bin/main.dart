@@ -12,18 +12,6 @@ void main(List<String> arguments) async{
   parser.addCommand('help', command);
   parser.addCommand('info', command);
   parser.addCommand('clear', command);
-  parser.addCommand('add', command);  parser.addCommand('help', command);
-  parser.addCommand('info', command);
-  parser.addCommand('clear', command);
-  parser.addCommand('add', command);  parser.addCommand('help', command);
-  parser.addCommand('info', command);
-  parser.addCommand('clear', command);
-  parser.addCommand('add', command);  parser.addCommand('help', command);
-  parser.addCommand('info', command);
-  parser.addCommand('clear', command);
-  parser.addCommand('add', command);  parser.addCommand('help', command);
-  parser.addCommand('info', command);
-  parser.addCommand('clear', command);
   parser.addCommand('add', command);
   parser.addOption('set', abbr: 's');
   var args  = parser.parse(arguments);
@@ -34,7 +22,6 @@ void main(List<String> arguments) async{
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
   if(args.command?.name=='add'){
     await setProject.run(clientDefault);
-    await Future.delayed(Duration(seconds: 10));
     print("GIT ADD * ...");
     await git_manager.addAll();
   }else if(args.command?.name=='help'){
@@ -50,7 +37,6 @@ void main(List<String> arguments) async{
   }else if(args.options.contains("set")){
     setProject.run(args['set']);
   }else {
-
     print("???????? COMANDO DESCONHECIDO ?????????");
   }
 
