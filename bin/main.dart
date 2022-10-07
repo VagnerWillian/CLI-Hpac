@@ -15,7 +15,7 @@ void main(List<String> arguments) async{
   print("••••••••••••••••••••••••HPAC CLI••••••••••••••••••••••••••••••••");
   print("••••••••••••DESENVOLVIDO POR HAMMER CONSULT•••••••••••••••••••••");
   print("•••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••••");
-
+  await Future.delayed(Duration(seconds: 5));
   if(args.command?.name=='help'){
     print("-s(or --set) \"<client-name>\"");
     print("info • for actually selected client");
@@ -31,5 +31,4 @@ void main(List<String> arguments) async{
   }else {
     print("???????? COMANDO DESCONHECIDO ?????????");
   }
-
 }
