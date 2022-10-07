@@ -1,0 +1,22 @@
+{
+  "result": [
+    {
+      "id":1,
+      "nome": "Biópsia hepática",
+      "nomeProfissional":"Dr. Marcio Luiz",
+      "especialidade":"Cirurgia Geral",
+      "unidade": "Hospital Mário Pamério",
+      "convenio": "Particular",
+      "dataRealizacao":"2020-12-20T08:00:00",
+      "dataAgendamento":"2020-12-20T08:00:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

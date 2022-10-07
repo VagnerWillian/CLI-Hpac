@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "115484806610",
+    "project_id": "hpacapp",
+    "storage_bucket": "hpacapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115484806610:android:160718858ba5789c818c0b",
+        "android_client_info": {
+          "package_name": "com.MarioPalmerio.mphu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115484806610-lhplrgp0veacmmme8q7dema0frr5bnbr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDq9DefdHZv7ObHtADDfZUHsGSxHj41OxE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115484806610-lhplrgp0veacmmme8q7dema0frr5bnbr.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "115484806610-k2vbaj18aqrtqpupl7b3vfsh1misms1p.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.MarioPalmerio.uniub"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

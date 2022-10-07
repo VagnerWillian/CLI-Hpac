@@ -1,0 +1,13 @@
+{
+  "result": [
+    {
+      "sequencia": 1,
+      "descricao":"Coleta de urina",
+      "dataRealizacao":"2021-11-16T15:00:00",
+      "dataAgendamento":"2021-11-16T15:00:00",
+      "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+      "id": 1,
+      "orientacoes":"Chegar 30min antes do horário da consulta."
+    }
+  ]
+}

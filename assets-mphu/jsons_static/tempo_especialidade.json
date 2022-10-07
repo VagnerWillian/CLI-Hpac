@@ -1,0 +1,36 @@
+{
+  "result": [
+    {
+      "fila": 33,
+      "especialidade": "CLINICA MEDICA",
+      "imediato": "SIM",
+      "espera": "00h30min",
+      "pacientes": 4,
+      "medicos": 1
+    },
+    {
+      "fila": 64,
+      "especialidade": "GINECOLOGIA/OBSTET.",
+      "imediato": "SIM",
+      "espera": "Imediato",
+      "pacientes": 0,
+      "medicos": 1
+    },
+    {
+      "fila": 32,
+      "especialidade": "ORTOPEDIA",
+      "imediato": "SIM",
+      "espera": "00h20min",
+      "pacientes": 1,
+      "medicos": 1
+    },
+    {
+      "fila": 31,
+      "especialidade": "PEDIATRIA",
+      "imediato": "SIM",
+      "espera": "00h30min",
+      "pacientes": 4,
+      "medicos": 2
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "result": [
+    {
+      "id":1,
+      "sequencia": 1,
+      "nome": "Quimioterapia",
+      "nomeProfissional":"Dr. Geraldo Barreira",
+      "especialidade":"Quimioterapia",
+      "convenio": "Particular",
+      "unidade": "Hospital Mário Pamério",
+      "dataRealizacao":"2021-12-20T07:10:00",
+      "dataAgendamento":"2021-12-20T07:10:00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":2,
+      "sequencia": 2,
+      "nome": "Quimioterapia",
+      "nomeProfissional":"Dr. Geraldo Barreira",
+      "especialidade":"Quimioterapia",
+      "convenio": "Particular",
+      "unidade": "Hospital Mário Pamério",
+      "dataRealizacao":"2022-01-16T08:30:00",
+      "dataAgendamento":"2022-01-16T08:30:00",
+      "detalhes":{
+        "id":2,
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

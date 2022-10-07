@@ -1,0 +1,42 @@
+{
+  "result": [
+    {
+      "id": "1",
+      "sequencia": 1,
+      "tipo": "imagem",
+      "dataRealizacao": "2021-12-20T07:00:00",
+      "dataAgendamento": "2021-12-20T07:00:00",
+      "clinica": "Hospital Mário Pamério",
+      "convenio": "Particular",
+      "valorParticular": "VALOR DA CONSULTA PARTICULAR $ 100,00",
+      "nome": "TSH ULTRA SENSIVEL, T4 LIVRE",
+      "detalhes": {
+        "id": "1",
+        "id_exame": "1",
+        "telefone": "(11) 41686852",
+        "email": "atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao": "TSH ULTRA SENSIVEL, T4 LIVRE",
+        "orientacoes": "Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":"2",
+      "sequencia": 2,
+      "tipo":"laboratorial",
+      "dataRealizacao":"2021-12-20T06:00:00",
+      "dataAgendamento":"2021-12-20T06:00:00",
+      "Clinica": "Hospital Mário Pamério",
+      "convenio": "Particular",
+      "detalhes": {
+        "id":"2",
+        "id_exame":"2",
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":"TESTE RÁPIDO MOLECULAR COVID-19",
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

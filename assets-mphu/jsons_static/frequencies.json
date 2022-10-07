@@ -1,0 +1,10 @@
+[
+  {
+    "id" : 0,
+    "frequencia": "Primeira Consulta"
+  },
+  {
+    "id" : 1,
+    "frequencia": "Reconsulta"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "idMedico": 1,
+    "nomemedico": "Dr. Willam da Silva Souza",
+    "maisProximo": false
+  },
+  {
+    "idMedico": 2,
+    "nomemedico": "Dr. Kátia Kohler",
+    "maisProximo": false
+  },
+  {
+    "idMedico": 3,
+    "nomemedico": "Dr. Herbert Oliveira Souza",
+    "maisProximo": true
+  }
+]

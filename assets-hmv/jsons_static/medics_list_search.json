@@ -1,0 +1,22 @@
+[
+  {
+    "idMedico": 1323,
+    "nomemedico": "Dr. Gregory House",
+    "maisProximo": false
+  },
+  {
+    "idMedico": 2325,
+    "nomemedico": "Dr. James Wilson",
+    "maisProximo": false
+  },
+  {
+    "idMedico": 5894,
+    "nomemedico": "Dr. Lisa Cuddy",
+    "maisProximo": false
+  },
+  {
+    "idMedico": 8978,
+    "nomemedico": "Dr. Eric Foreman",
+    "maisProximo": false
+  }
+]

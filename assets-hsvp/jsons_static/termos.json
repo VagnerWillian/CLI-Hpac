@@ -1,0 +1,16 @@
+{
+  "result":[{
+    "id": 1,
+    "url": "http://www.africau.edu/images/default/sample.pdf",
+    "data": "2021-07-23T16:00:00",
+    "nome": "Política de Privacidade",
+    "idInstituicao": 4
+  },
+  {
+    "id": 2,
+    "url": "http://www.africau.edu/images/default/sample.pdf",
+    "data": "2021-07-23T16:00:00",
+    "nome": "Termos de Uso",
+    "idInstituicao": 4
+  }]
+}

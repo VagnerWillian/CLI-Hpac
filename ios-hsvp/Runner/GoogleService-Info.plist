@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>257965435712-1qdpqp8jegngg2cq5ideeeojm83btimj.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.257965435712-1qdpqp8jegngg2cq5ideeeojm83btimj</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBF6-PGP5XRjhdEgQSSO94etsn9F9YRIic</string>
+	<key>GCM_SENDER_ID</key>
+	<string>257965435712</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.HospitalSaoVicente.hsvp</string>
+	<key>PROJECT_ID</key>
+	<string>hpachsvp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>hpachsvp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:257965435712:ios:5a1812d5403b874daea8a5</string>
+</dict>
+</plist>

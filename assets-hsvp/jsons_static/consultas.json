@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "id":1,
+      "sequencia": 1,
+      "nomeProfissional":"Dr. Antonio Luis",
+      "especialidade":"Clinico Geral",
+      "convenio": "Particular",
+      "unidade": "Hospital De Caridade São Vicente de Paulo",
+      "dataRealizacao":"2021-11-16T15:00:00",
+      "dataAgendamento":"2021-11-16T15:00:00",
+      "valorParticular": "VALOR DA CONSULTA PARTICULAR $ 100,00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":2,
+      "sequencia": 2,
+      "nomeProfissional":"Dra. Maisa Oliveira",
+      "especialidade":"Ortopedista",
+      "convenio": "Particular",
+      "unidade": "Hospital De Caridade São Vicente de Paulo",
+      "dataRealizacao":"2021-11-16T17:00:00",
+      "dataAgendamento":"2021-11-16T17:00:00",
+      "detalhes":{
+        "id":2,
+        "telefone": "(11) 45838155",
+        "email":"atendimento@hsvp.com",
+        "endereco": "R. São Vicente de Paulo, 223 - Centro, Jundiaí - SP, 13201-625",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

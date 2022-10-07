@@ -1,0 +1,10 @@
+{
+  "idPaciente": "120210",
+  "tipo": "L",
+  "idpedido": 81046,
+  "idexame": "556263",
+  "snLaudoCarregado": "S",
+  "laudoCarregado": true,
+  "arquivo": null,
+  "linkLaudoPDF": "http://www.africau.edu/images/default/sample.pdf"
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="45" height="44" viewBox="0 0 45 44">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_109" data-name="Retângulo 109" width="45" height="44" transform="translate(0 0)" fill="none" stroke="#013464" stroke-width="2.3"/>
+    </clipPath>
+  </defs>
+  <g id="agendar_consulta" transform="translate(1.335 -2.721)">
+    <g id="Objeto_Inteligente_de_Vetor" data-name="Objeto Inteligente de Vetor" transform="translate(-1 3)">
+      <g id="Grupo_1271" data-name="Grupo 1271" transform="translate(-0.335 -0.279)">
+        <g id="Grupo_1270" data-name="Grupo 1270" clip-path="url(#clip-path)">
+          <path id="Caminho_1768" data-name="Caminho 1768" d="M46.419,22.488V12.634A2.816,2.816,0,0,0,43.6,9.818H40.788V7a2.815,2.815,0,0,0-5.631,0V9.818H28.119V7a2.815,2.815,0,0,0-5.631,0V9.818H15.449V7A2.815,2.815,0,0,0,9.818,7V9.818H7a2.816,2.816,0,0,0-2.815,2.815V43.6A2.816,2.816,0,0,0,7,46.419H23.9" transform="translate(-3.186 -3.087)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <line id="Linha_24" data-name="Linha 24" x2="30.97" transform="translate(6.632 15.178)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <rect id="Retângulo_107" data-name="Retângulo 107" width="5.631" height="5.631" rx="2.815" transform="translate(8.04 20.808)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <rect id="Retângulo_108" data-name="Retângulo 108" width="5.631" height="5.631" rx="2.815" transform="translate(8.04 32.07)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <circle id="Elipse_31" data-name="Elipse 31" cx="11.262" cy="11.262" r="11.262" transform="translate(20.71 20.808)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+          <path id="Caminho_1769" data-name="Caminho 1769" d="M96.313,83.75v4.223l2.815,2.815" transform="translate(-64.341 -55.903)" fill="none" stroke="#013464" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

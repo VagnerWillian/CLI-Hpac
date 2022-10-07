@@ -1,0 +1,41 @@
+{
+  "result": [
+    {
+      "id":1,
+      "sequencia": 1,
+      "nomeProfissional":"Dr. Antonio Luis",
+      "especialidade":"Clinico Geral",
+      "convenio": "Particular",
+      "unidade": "Hospital Mário Pamério",
+      "dataRealizacao":"2021-11-16T15:00:00",
+      "dataAgendamento":"2021-11-16T15:00:00",
+      "valorParticular": "VALOR DA CONSULTA PARTICULAR $ 100,00",
+      "detalhes":{
+        "id":1,
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    },
+    {
+      "id":2,
+      "sequencia": 2,
+      "nomeProfissional":"Dra. Maisa Oliveira",
+      "especialidade":"Ortopedista",
+      "convenio": "Particular",
+      "unidade": "Hospital Mário Pamério",
+      "dataRealizacao":"2021-11-16T17:00:00",
+      "dataAgendamento":"2021-11-16T17:00:00",
+      "detalhes":{
+        "id":2,
+        "telefone": "(11) 41686852",
+        "email":"atendimento@mphu.com",
+        "endereco": "Av. Nenê Sabino, 2477 - Santos Dumont, Uberaba - MG, 38050-501",
+        "descricao":null,
+        "orientacoes":"Chegar 30min antes do horário da consulta."
+      }
+    }
+  ]
+}

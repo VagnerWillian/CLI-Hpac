@@ -1,0 +1,20 @@
+{
+  "result": [
+    {
+      "id": 33,
+      "nome": "CLINICA MEDICA"
+    },
+    {
+      "id": 64,
+      "nome": "GINECOLOGIA/OBSTET."
+    },
+    {
+      "id": 32,
+      "nome": "ORTOPEDIA"
+    },
+    {
+      "id": 31,
+      "nome": "PEDIATRIA"
+    }
+  ]
+}

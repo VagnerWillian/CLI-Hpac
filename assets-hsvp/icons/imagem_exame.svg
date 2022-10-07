@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.086" height="25.216" viewBox="0 0 28.086 25.216">
+  <g id="ícone_laudo_exame_de_imagem" data-name="ícone laudo exame de imagem" transform="translate(0.688 0.6)">
+    <path id="Caminho_7336" data-name="Caminho 7336" d="M4,0H1.816A1.8,1.8,0,0,0,0,1.783V14.5l24.346,0V1.783A1.8,1.8,0,0,0,22.53,0h-2.3" transform="matrix(1, 0, 0, 1, 1.092, 3.686)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <path id="Caminho_7337" data-name="Caminho 7337" d="M0,0H1.488A1.046,1.046,0,0,1,2.544,1.036V11.651" transform="matrix(1, 0, 0, 1, 21.319, 5.231)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <path id="Caminho_7338" data-name="Caminho 7338" d="M0,11.651V1.036A1.046,1.046,0,0,1,1.055,0H2.544" transform="matrix(1, 0, 0, 1, 2.545, 5.231)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <line id="Linha_271" data-name="Linha 271" x1="1.08" y2="4.191" transform="matrix(1, 0, 0, 1, 0.043, 18.279)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <line id="Linha_272" data-name="Linha 272" x2="1.3" y2="4.226" transform="matrix(1, 0, 0, 1, 25.348, 18.279)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <path id="Retângulo_813" data-name="Retângulo 813" d="M.091,0H26.57a.077.077,0,0,1,.077.077V.091a1.454,1.454,0,0,1-1.454,1.454H1.454A1.454,1.454,0,0,1,0,.091v0A.091.091,0,0,1,.091,0Z" transform="matrix(1, 0, 0, 1, 0, 22.471)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <line id="Linha_273" data-name="Linha 273" x2="13.929" transform="matrix(1, 0, 0, 1, 6.3, 20.806)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <path id="Caminho_7339" data-name="Caminho 7339" d="M7.611,2.14H5.572v-2A.14.14,0,0,0,5.43,0H2.322A.14.14,0,0,0,2.18.139v2H.141A.14.14,0,0,0,0,2.279V5.33a.14.14,0,0,0,.141.139H2.18v2a.14.14,0,0,0,.141.139H5.43a.14.14,0,0,0,.141-.139v-2H7.611a.14.14,0,0,0,.141-.139V2.279A.14.14,0,0,0,7.611,2.14Z" transform="matrix(1, 0, 0, 1, 9.327, 2.853)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+    <path id="Caminho_7340" data-name="Caminho 7340" d="M12.691,12.959H7.686l-1,.918-1.136-.918H.511a.506.506,0,0,1-.511-.5V.5A.506.506,0,0,1,.511,0h12.18A.506.506,0,0,1,13.2.5V12.458A.506.506,0,0,1,12.691,12.959Z" transform="matrix(1, 0, 0, 1, 6.663, 0)" fill="none" stroke="#023567" stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.2"/>
+  </g>
+</svg>

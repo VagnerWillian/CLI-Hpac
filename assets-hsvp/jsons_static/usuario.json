@@ -1,0 +1,29 @@
+{
+  "result": {
+    "uid": "SsCNl88pNsei1Rg2TbNcANkR8VU2",
+    "idPaciente": 1,
+    "nome": "Vagner Willian",
+    "email": "vagner.ferreira@hammerconsult.com.br",
+    "cpf": "123.456.789-10",
+    "rg": "37.523.654-6",
+    "dataNascimento": "1963-01-03T00:00:00",
+    "sexo": "Masculino",
+    "celular": "(11) 981145411",
+    "ativo": true,
+    "pushToken": null,
+    "deviceId": null,
+    "dataCadastro": "2021-08-02T00:00:00",
+    "chave": "",
+    "termoAceito": true,
+    "dependentes": [
+      {
+        "id": "0",
+        "nome": "Dependente 1"
+      },
+      {
+        "id": "1",
+        "nome": "Dependente 2"
+      }
+    ]
+  }
+}

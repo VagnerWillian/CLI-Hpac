@@ -1,0 +1,12 @@
+{
+  "result": {
+    "idPaciente": "339760",
+    "tipo": "I",
+    "idpedido": 284545,
+    "idexame": "556266",
+    "snLaudoCarregado": "S",
+    "laudoCarregado": true,
+    "arquivo": null,
+    "linkLaudoPDF": "http://www.africau.edu/images/default/sample.pdf"
+  }
+}

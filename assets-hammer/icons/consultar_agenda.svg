@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="36" height="50" viewBox="0 0 36 50">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Retângulo_102" data-name="Retângulo 102" width="36" height="50" transform="translate(-0.307 -0.229)" fill="none" stroke="#013668" stroke-width="2"/>
+    </clipPath>
+  </defs>
+  <g id="consultar_agenda_" data-name="consultar_agenda[" transform="translate(0.624 0.667)">
+    <g id="Objeto_Inteligente_de_Vetor" data-name="Objeto Inteligente de Vetor" transform="translate(-0.317 -0.437)">
+      <g id="Grupo_1263" data-name="Grupo 1263" transform="translate(0 0)">
+        <g id="Grupo_1262" data-name="Grupo 1262" clip-path="url(#clip-path)">
+          <path id="Caminho_1736" data-name="Caminho 1736" d="M6.447,128.667l8.948-3.03v-3.28" transform="translate(-4.101 -81.083)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1737" data-name="Caminho 1737" d="M80.529,128.667l-8.949-3.03v-3.28" transform="translate(-47.335 -81.083)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1738" data-name="Caminho 1738" d="M68.374,93.133l4.085-.515a4.452,4.452,0,0,0,3.9-4.246l.064-5.629" transform="translate(-45.206 -54.788)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1739" data-name="Caminho 1739" d="M87.4,33.344a13.656,13.656,0,0,1,1.948,7.049" transform="translate(-57.837 -21.998)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1740" data-name="Caminho 1740" d="M12.519,41.959V39.7a13.655,13.655,0,0,1,2.166-7.4" transform="translate(-8.131 -21.308)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1741" data-name="Caminho 1741" d="M41.131,12.972H22.821a.331.331,0,0,1-.329-.288L21.269,3.251a.335.335,0,0,1,.333-.377H42.354a.331.331,0,0,1,.329.373L41.46,12.683A.331.331,0,0,1,41.131,12.972Z" transform="translate(-13.938 -1.773)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Linha_16" data-name="Linha 16" x2="4.533" transform="translate(15.827 6.472)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Linha_17" data-name="Linha 17" y1="4.511" transform="translate(17.986 4.109)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1742" data-name="Caminho 1742" d="M35.1,41.735a5.422,5.422,0,0,1-5.435,5.409H20.3a2.56,2.56,0,0,0-2.562,2.711l.652,10.589a4.8,4.8,0,0,0,2.578,3.9l2.551,1.671a4.143,4.143,0,0,0,2.269.676h.77" transform="translate(-11.591 -27.568)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1743" data-name="Caminho 1743" d="M74.79,57.824h1.255A3,3,0,0,1,79.05,61L76.916,71.13A4.786,4.786,0,0,1,75.855,73.8" transform="translate(-49.466 -38.247)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1744" data-name="Caminho 1744" d="M7.422,68.747H5.7a2.8,2.8,0,0,1-2.811-2.8V64.455a2.8,2.8,0,0,1,2.811-2.8H7.422Z" transform="translate(-1.739 -40.792)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Caminho_1745" data-name="Caminho 1745" d="M87.63,68.747h1.722a2.8,2.8,0,0,0,2.811-2.8V64.455a2.8,2.8,0,0,0-2.811-2.8H87.63Z" transform="translate(-57.988 -40.792)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <path id="Retângulo_101" data-name="Retângulo 101" d="M1.5,0H3.893A1.5,1.5,0,0,1,5.4,1.5v0a1.5,1.5,0,0,1-1.5,1.5H1.5A1.5,1.5,0,0,1,0,1.5v0A1.5,1.5,0,0,1,1.5,0Z" transform="translate(17.554 36.763)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Linha_18" data-name="Linha 18" y2="13.319" transform="translate(4.387 30.748)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+          <line id="Linha_19" data-name="Linha 19" y2="4.941" transform="translate(31.368 39.126)" fill="none" stroke="#013668" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

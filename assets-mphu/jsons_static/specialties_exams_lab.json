@@ -1,0 +1,14 @@
+[
+  {
+    "idEspecialidade": 0,
+    "nomeEspecialidade": "Hemograma"
+  },
+  {
+    "idEspecialidade": 1,
+    "nomeEspecialidade": "Fezes"
+  },
+  {
+  "idEspecialidade": 2,
+  "nomeEspecialidade": "Urina"
+  }
+]

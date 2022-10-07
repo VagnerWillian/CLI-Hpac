@@ -1,0 +1,58 @@
+{
+  "result": [
+    {
+      "label":"Exame 1",
+      "instrucoes": "Instruções de preparo do exame 1...",
+      "sequencias":[
+        {
+          "sequencia": 10000,
+          "hrAgenda":"08:00:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        },
+        {
+          "sequencia": 12000,
+          "hrAgenda":"08:30:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        },
+        {
+          "sequencia": 13000,
+          "hrAgenda":"09:00:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        }
+      ]
+    },
+    {
+      "label":"Exame 2",
+      "instrucoes": "Instruções de preparo do exame 2...",
+      "sequencias":[
+        {
+          "sequencia": 10001,
+          "hrAgenda":"13:00:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        },
+        {
+          "sequencia": 12002,
+          "hrAgenda":"14:30:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        },
+        {
+          "sequencia": 13003,
+          "hrAgenda":"15:00:00",
+          "dia":"30",
+          "mes":"12",
+          "ano":"2022"
+        }
+      ]
+    }
+  ]
+}

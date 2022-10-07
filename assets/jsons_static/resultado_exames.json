@@ -1,0 +1,28 @@
+{
+  "result": [
+    {
+      "idExame": "556263",
+      "idPedido": "81046",
+      "tipo": "laboratorial",
+      "nome": "GAMA GT (GGT), T4 LIVRE, TSH ULTRA SENSIVEL",
+      "dataRealizacao": "2020-03-14T07:07:00",
+      "dataLiberacao": "2020-03-14T07:07:00",
+      "convenio": "Particular",
+      "temResultado": true,
+      "temLink": false,
+      "temLaudo": false
+    },
+    {
+      "idExame": "0",
+      "idPedido": "339760",
+      "tipo": "imagem",
+      "nome": "RX COLUNA DORSAL",
+      "dataRealizacao": "2019-07-04T15:46:00",
+      "dataLiberacao": "2019-07-04T14:23:00",
+      "convenio": "Particular",
+      "temResultado": false,
+      "temLink": false,
+      "temLaudo": true
+    }
+  ]
+}
