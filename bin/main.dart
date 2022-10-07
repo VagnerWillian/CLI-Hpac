@@ -9,6 +9,7 @@ import 'package:hpac/git_manager.dart' as git_manager;
 void main(List<String> arguments) async {
   var parser = ArgParser();
   var command = ArgParser();
+
   parser.addCommand('help', command);
   parser.addCommand('info', command);
   parser.addCommand('clear', command);
