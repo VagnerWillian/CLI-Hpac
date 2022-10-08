@@ -31,7 +31,6 @@ Future<void> getClient(String? client)async{
   }else{
     await createConfig(clientDefault, clientDefault);
   }
-
 }
 
 Future<void> createConfig(String selectedClient, String newClient)async{
